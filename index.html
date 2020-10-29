@@ -3,59 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Đoàn cônguyễn</title>
     <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <h1 style="color: black;">Doan conguyen</h1>
+            <ul>
+                <li><a data-page="home" href="#">Home</a></li>
+                <li><a data-page="video" href="#">Video</a></li>
+                <li><a data-page="friends" href="#">Friends</a></li>
+                <li><a data-page="contact" href="#">Contact</a></li>
+                <div class="bubble"></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section data-index="0" class="home">
+            <h2>Home</h2>
+        </section>
+        <section data-index="1" class="video">
+            <h2>Video</h2>
+        </section>
+        <section data-index="2" class="friends">
+            <h2>Friends</h2>
+        </section>
+        <section data-index="3" class="contact">
+            <h2>Contact</h2>
+        </section>
+    </main>
     
-    <section class="card-list">
-        <article class="card">
-            <header class="card-header">
-                <p>Oct 23rd 2020</p>
-                <h2>Hello, I'm a programmer</h2>
-            </header>
-            <div class="card-author">
-                <a class="author-avatar" href="#">
-                    <img src="avatar.jpg" alt="">
-                </a>
-                <svg class="half-circle" viewBox="0 0 106 57">
-                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-                </svg>
-                <div class="author-name">
-                    <div class="author-name-prefix">Author</div>
-                    Nguyen Doan
-                </div>
-            </div>
-        </article>
-
-        <article class="card">
-            <header class="card-header">
-                <p>Oct 23rd 2020</p>
-                <h2>Hello, I'm a programmer</h2>
-            </header>
-        </article>
-
-        <article class="card">
-            <header class="card-header">
-                <p>Oct 23rd 2020</p>
-                <h2>Hello, I'm a programmer</h2>
-            </header>
-        </article>
-
-        <article class="card">
-            <header class="card-header">
-                <p>Oct 23rd 2020</p>
-                <h2>Hello, I'm a programmer</h2>
-            </header>
-        </article>
-
-        <article class="card">
-            <header class="card-header">
-                <p>Oct 23rd 2020</p>
-                <h2>Hello, I'm a programmer</h2>
-            </header>
-        </article>
-    </section>
 
 </body>
 </html>
